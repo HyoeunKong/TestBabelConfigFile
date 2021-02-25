@@ -1,0 +1,13 @@
+{
+    "plugins":[
+        "@babel/plugin-transform-arrow-functions",
+        "@babel/plugin-transform-template-literals"
+    ],
+    "overrides":[
+        {
+            "include":"./folder1",
+            "plugins":["@babel/plugin-transform-arrow-functions"]
+            
+        }
+    ]
+}
